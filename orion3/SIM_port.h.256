@@ -26,7 +26,7 @@
 #define PARM_cache_out_port	0	/* # of cache output ports */
 #define PARM_mc_out_port	0	/* # of memory controller output ports */
 #define PARM_io_out_port	0	/* # of I/O device output ports */
-#define PARM_flit_width		512	/* flit width in bits */
+#define PARM_flit_width		256	/* flit width in bits */
 
 /* virtual channel parameters */
 #define PARM_v_class        1   /* # of total message classes */
