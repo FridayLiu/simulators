@@ -1,0 +1,14 @@
+CACTI
+./cacti -infile cache.cfg
+
+
+ORION
+1.  编译前先修改SIM_port.h文件！！！！！
+2. rm *.o
+3. make
+4. ./orion_router
+用的是ORION 3.0 !!! 不是ORION2.0!!!
+
+对ORION 3.0做了修改才能用
+technology_area_power.h 中所有==45 判断改为 <= 45
+然后就可以使用上面的方法进行编译了
